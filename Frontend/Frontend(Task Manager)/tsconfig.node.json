@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",               // or "ES2022"
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // If you want tsBuildInfoFile:
+    "incremental": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo"
+  },
+  "include": ["src"]
+}
